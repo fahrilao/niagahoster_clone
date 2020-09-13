@@ -1,0 +1,464 @@
+ @font-face {
+    font-family: 'montserrat';
+    src: url('./fonts/montserrat/montserrat-black-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat/montserrat-black-webfont.woff') format('woff');
+    font-weight: 900;
+
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: 700;
+
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./fonts/montserrat/montserrat-hairline-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat/montserrat-hairline-webfont.woff') format('woff');
+    font-weight: 200;
+
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat/montserrat-light-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: 300;
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto/roboto-regular-webfont.woff2') format('woff2'),
+         url('./fonts/roboto/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: 'montserrat';
+	color: #4C4C4C;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+ul li {
+	line-height: 1.5em !important;
+}
+
+.text-head, .announcement {
+	font-size: .7em
+}
+
+.fa-bookmark {
+	font-size: 3em;
+}
+
+.icon-announcement > span:last-child {
+	top: calc(50% - 5px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.announcement {
+	position: relative;
+}
+
+@media (min-width: 576px) {
+	.announcement {
+		position: absolute;
+	}
+}
+
+.btn-close {
+	cursor: pointer;
+}
+
+
+@media (min-width: 576px) {
+	.text-head {
+		font-size: .8em
+	}
+}
+
+.navbar-brand > img {
+	width: 200px;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn-pill {
+	border-radius: 30px;
+}
+
+.nav-item {
+	text-align: right;
+}
+
+
+/*----- SECTION 1 -----*/
+.title-primary {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.caption-primary {
+	font-size: 1.7em;
+	line-height: 1.3em;
+	font-weight: 400;
+}
+
+.list-excellents{
+	padding: 0;
+	margin: 0;
+}
+
+.list-excellents > li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 2.2em;
+	font-weight: 400;
+	margin-bottom: 1em !important;
+}
+
+.img-primary {
+	width: 100%;
+	max-width: 450px;
+}
+
+/*----- SECTION 2 -----*/
+.fitur {
+	font-weight: 350;
+	text-align: center;
+}
+
+.fitur-img {
+	height: 150px;
+	width: 200px;
+}
+
+/*----- SECTION 3 -----*/
+.content-3 .title {
+	font-size: 1.9em;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.content-3 .caption {
+	font-size: 1.6em
+}
+
+.best-seller {
+	border-color: #008FEE !important;
+}
+
+.price-section {
+	position: relative;
+}
+
+.price-section .img-best-seller {
+	width: 100px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+}
+
+.price-fitur {
+	padding: 0;
+	margin: 0;
+}
+
+.price-fitur li {
+	list-style: none;
+	margin-bottom: 1em !important;
+}
+
+.price-title {
+	font-size: 1.5em;
+	font-weight: 700;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.price-info, .price-users {
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.best-seller .price-info {
+	background-color: #008FEE;
+	color: #FFF;
+}
+
+.best-seller .price-info, .best-seller .price-title, .best-seller .price-users {
+	border-bottom: #008FEE !important;
+}
+
+.price-info p {
+	padding: 0;
+	margin: 0;
+}
+
+.price-section {
+	border: 1px solid #EAEAEA;
+	padding: 0;
+}
+
+.price-real {
+	text-decoration: line-through;
+}
+
+.price {
+	margin-top: -.5em;
+	display: block;
+	vertical-align: middle;
+}
+
+.text-large {
+	font-size: 3em;
+	vertical-align: middle;
+}
+
+.best-seller .price-users {
+	background-color: #007FDE;
+	color: #FFF;
+}
+
+.price-users, .price-fitur {
+	font-family: 'roboto';
+}
+
+.price-users p {
+	padding: 0;
+	font-size: .9em;
+	padding-top: .8em !important;
+	padding-bottom: .8em !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.price-fitur li {
+	margin-bottom: .5em !important;
+}
+
+.btn-outline-dark {
+	border: 2px solid #343a40;
+}
+
+/*----- SECTION 4 -----*/
+.content-4 .title {
+	font-size: 1.9em;
+	font-weight: 400
+}
+
+.table-fitur {
+	font-size: .8em;
+}
+
+.table-fitur tbody tr:nth-of-type(even) {
+    background-color: #f6f6f6;
+}
+
+/*----- SECTION 5 -----*/
+.content-5 .title {
+	font-size: 1.9em;
+	font-weight: 400;
+}
+
+.fitur-icon {
+	width: 50px;
+	height: 50px;
+}
+
+.fitur-title {
+	font-weight: 700;
+	font-size: 1em;
+	margin-bottom: 0;
+}
+
+.fitur-caption {
+	/*word-break: break-all;*/
+	font-size: .8em;
+}
+
+/*----- SECTION 6 -----*/
+.content-6 .title {
+	font-size: 1.9em;
+	font-weight: 400;
+}
+
+.deskripsi {
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.9em;
+}
+
+.fitur-deskriptsi {
+	margin: 0;
+	padding: 0;
+}
+
+.fitur-deskriptsi li {
+	list-style: none;
+	line-height: 2.2em;
+	font-size: .9em;
+	margin-bottom: 1em !important;
+}
+
+/*----- SECTION 7 -----*/
+.content-7 .title {
+	font-size: 1.9em;
+	font-weight: 400;
+}
+
+.list-extention {
+	margin: 0;
+	padding: 0;
+}
+
+.list-extention li {
+	list-style: none;
+	line-height: 2.2em;
+	font-size: .8em;
+	font-family: 'Roboto' serif;
+	font-weight: 300;
+	margin-bottom: 1em !important;
+}
+
+.content-7 .btn {
+	font-size: .8em;
+}
+
+@media (min-width: 768px){
+	.content-7 > div {
+		justify-content: center !important;
+	}
+}
+
+/*----- SECTION 8 -----*/
+.content-8 .title {
+	font-size: 1.9em;
+	font-weight: 400;
+}
+
+.content-8 {
+	font-size: 1em;
+}
+
+.content-8 .deskripsi b {
+	font-weight: 700
+}
+
+.content-8 img {
+	max-width: 100%;
+}
+
+/*----- SECTION 9 -----*/
+.content-9 .title{
+	font-size: .8em !important;
+}
+
+
+.content-9 .icon-social{
+	font-size: 1.5em !important;
+}
+
+.content-9 .social-text {
+	color: #96969D;
+}
+
+.bg-gray {
+	background-color: #F7F7F7;
+}
+
+/*----- SECTION 10 -----*/
+.bg-blue{
+	background-color: #00A2F3;
+}
+
+.phone-info {
+	font-size: 1.8em;
+	font-weight: 400;
+}
+
+.horizontal-border {
+	border-left: 1px solid #6bccfd;
+	box-sizing: border-box;
+	height: 50px;
+}
+
+/*------ FOOTER ------*/
+footer ul {
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	list-style: none;
+	font-size: .75em;
+	line-height: 1.9em;
+	margin-bottom: 1em;
+}
+
+footer ul li:first-child {
+	font-weight: 700;
+	color: #797878 !important;
+	font-size: .8em;
+	margin-bottom: 20px;
+}
+
+footer ul li a{
+	color: white !important;
+}
+
+.submit-newsletter {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	font-weight: 400;
+	background-color: #00A2F3;
+	color: white;
+}
+
+.form-newsletter p {
+	color: #797878 !important;
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.payment-icon {
+	filter: white;
+    -webkit-filter: brightness(0) invert(1);
+    width: 50px;
+}
+
+.adverb {
+	font-weight: 200;
+}
+
+
+/*------ Footer 2 ------*/
+footer p {
+	font-size: .7em;
+	font-weight: 200;
+	line-height: 2em;
+}
